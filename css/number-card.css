@@ -1,0 +1,57 @@
+.number-card {
+  width: 740px;
+  height: 319px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  z-index: 1;
+}
+
+.number-card__card {
+  width: inherit;
+  height: 256px;
+  border: 1px solid rgba(22, 21, 27, 1);
+  border-radius: 32px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.number-card__card__container {
+  width: 684px;
+  height: 104px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.number-card__container__item {
+  width: 135px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.number-card__card__container .number-card__container__item span:nth-child(1) {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.number-card__card__container .number-card__container__item span:nth-child(2) {
+  line-height: 32px;
+  text-align: left;
+}
+
+.number-card__card__logo {
+  position: absolute;
+  top: 0;
+  left: 315px;
+  right: 284px;
+  bottom: 178px;
+  z-index: 2;
+}

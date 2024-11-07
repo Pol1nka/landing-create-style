@@ -1,0 +1,9 @@
+.gallery-images {
+  width: 740px;
+  height: 322px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+

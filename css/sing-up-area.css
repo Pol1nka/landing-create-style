@@ -1,0 +1,61 @@
+.sing-up-area {
+  width: 541px;
+  position: relative;
+  z-index: 1;
+}
+
+.sing-up-area__title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: black;
+  position: absolute;
+  z-index: 3;
+  text-wrap: nowrap;
+  top: 12%;
+  left: 66%;
+  user-select: none;
+}
+
+.sing-up-area__title__highlight {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 82px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 1px;
+  color: white;
+}
+
+.sing-up-area__description {
+  text-align: left;
+  line-height: 32px;
+  width: inherit;
+  color: #06040A;
+  margin-top: 41px;
+}
+
+.sing-up-area__button {
+  margin-top: 32px;
+  width: 187px;
+  height: 66px;
+  background: #06040A;
+  color: #fff;
+  border-radius: 40px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.sing-up-area__button:hover {
+  background: #48484c;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+
+

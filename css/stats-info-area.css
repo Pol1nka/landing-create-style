@@ -1,0 +1,13 @@
+.stats-info-area {
+  width: 740px;
+  margin-left: 32px;
+  margin-top: 263px;
+}
+
+.stats-info-area__container {
+  height: 697px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
