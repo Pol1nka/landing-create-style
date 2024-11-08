@@ -4,7 +4,7 @@
   z-index: 1;
 }
 
-.sing-up-area__title {
+.title-container__text {
   font-family: 'Times New Roman', Times, serif;
   font-size: 82px;
   font-weight: 700;
@@ -12,15 +12,18 @@
   letter-spacing: 0.01em;
   text-align: left;
   color: black;
-  position: absolute;
-  z-index: 3;
-  text-wrap: nowrap;
-  top: 12%;
-  left: 66%;
   user-select: none;
 }
 
-.sing-up-area__title__highlight {
+.title-container{
+  position: absolute;
+  z-index: 3;
+  text-wrap: nowrap;
+  top: 15%;
+  left: 29%;
+}
+
+.title-container__text__highlight {
   font-family: 'Times New Roman', Times, serif;
   font-size: 82px;
   font-weight: 700;

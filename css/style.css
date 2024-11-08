@@ -26,8 +26,10 @@ p {
 
 main {
   display: flex;
+  height: auto;
   justify-content: center;
   font-family: Helvetica, monospace;
   font-size: 22px;
   font-weight: 300;
+  margin-bottom: 50px;
 }
