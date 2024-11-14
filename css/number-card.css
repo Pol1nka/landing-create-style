@@ -16,17 +16,18 @@
   align-items: end;
   justify-content: center;
 }
-
-.number-card__card__container {
+.number-cards{
   width: 684px;
   height: 104px;
-  margin-bottom: 48px;
   display: flex;
   justify-content: space-between;
   user-select: none;
 }
+.number-card__card-container {
+  margin-bottom: 48px;
+}
 
-.number-card__container__item {
+.number-cards__item {
   width: 135px;
   height: 104px;
   display: flex;
@@ -34,7 +35,7 @@
   justify-content: space-between;
 }
 
-.number-card__card__container .number-card__container__item span:nth-child(1) {
+.number-card__card-container .number-cards__item span:nth-child(1) {
   font-family: 'Times New Roman', Times, serif;
   font-size: 32px;
   font-weight: 700;
@@ -42,12 +43,12 @@
   text-align: left;
 }
 
-.number-card__card__container .number-card__container__item span:nth-child(2) {
+.number-card__card__container .number-cards__item span:nth-child(2) {
   line-height: 32px;
   text-align: left;
 }
 
-.number-card__card__logo {
+.number-card__card-logo {
   position: absolute;
   top: 0;
   left: 315px;

@@ -4,7 +4,15 @@
   z-index: 1;
 }
 
-.title-container__text {
+.landing{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: auto;
+  position: relative;
+
+}
+.title__text {
   font-family: 'Times New Roman', Times, serif;
   font-size: 82px;
   font-weight: 700;
@@ -19,11 +27,11 @@
   position: absolute;
   z-index: 3;
   text-wrap: nowrap;
-  top: 15%;
-  left: 29%;
+  top: 119px;
+  left: 360px;
 }
 
-.title-container__text__highlight {
+.title__text-highlight {
   font-family: 'Times New Roman', Times, serif;
   font-size: 82px;
   font-weight: 700;
@@ -43,8 +51,7 @@
   margin-top: 41px;
 }
 
-.sing-up-area__button {
-  margin-top: 32px;
+.sing-up-button {
   width: 187px;
   height: 66px;
   background: #06040A;
@@ -54,10 +61,16 @@
   font-weight: 400;
 }
 
-.sing-up-area__button:hover {
+.sing-up-button:hover {
   background: #48484c;
   transition: all 0.2s ease;
   cursor: pointer;
+}
+
+.sing-up-area__button{
+  height: 66px;
+  width: 187px;
+  margin-top: 32px;
 }
 
 
